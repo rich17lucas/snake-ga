@@ -1,15 +1,15 @@
 import pygame
 from random import randint
 from DQN import DQNAgent
-import numpy as np
+#import numpy as np
 from keras.utils import to_categorical
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
 # Set options to activate or deactivate the game view, and its speed
-display_option = False
-speed = 0
+display_option = True
+speed = 50
 pygame.font.init()
 
 
